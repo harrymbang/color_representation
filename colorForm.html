@@ -1,0 +1,25 @@
+<head>
+	<style>
+		input.colorForm{
+			display: inline-block;
+			margin: 10px 10px 10px 10px;
+		}
+	</style>
+</head>
+<body>
+<div>
+	<form>
+		<fieldset style='width:25%;'>		
+			<input id='rgb2hex' name='mode' type='radio' class='colorForm' checked='checked'/>
+			<label for='rgb2hex'>RGB to HEX</label>
+			<input id='hex2rgb' name='mode' type='radio'  class='colorForm'/>
+			<label for='rgb2hex'>HEX to RGB</label>
+			<br/>
+			<label for='given_color' class='colorForm'>Enter color codes in the rgb format:</label>
+			<input id='given_color' type='text' size='25px' class='colorForm'/>
+			<br/>
+			<button id='submitBtn' class='colorForm'/>Translate</button>
+		</fieldset>
+	</form>
+</div>
+</body>
